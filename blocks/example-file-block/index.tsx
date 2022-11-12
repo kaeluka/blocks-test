@@ -27,14 +27,6 @@ export default function (props: FileBlockProps) {
           File: {context.path} {language}
         </Box>
         <Box p={4}>
-          <p>Metadata example: this button has been clicked:</p>
-          <Button
-            onClick={() =>
-              onUpdateMetadata({ number: (metadata.number || 0) + 1 })
-            }
-          >
-            {metadata.number || 0} times
-          </Button>
           <pre className="mt-3 p-3">{content}</pre>
         </Box>
       </Box>

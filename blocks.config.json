@@ -9,6 +9,15 @@
     "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
   },
   {
+    "type": "file",
+    "id": "svg-chart-block",
+    "title": "Example SVG Chart Block",
+    "description": "An xy scatter plot block",
+    "entry": "blocks/svg-chart-block/index.tsx",
+    "matches": ["*.xy"],
+    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
+  },
+  {
     "type": "folder",
     "id": "folder-block",
     "title": "Example Folder Block",
