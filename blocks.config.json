@@ -7,5 +7,14 @@
     "entry": "blocks/svg-chart-block/index.tsx",
     "matches": ["*.xy"],
     "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
+  },
+  {
+    "type": "file",
+    "id": "sonify-block",
+    "title": "Example Sonification Block",
+    "description": "A block making noise",
+    "entry": "blocks/sonify-block/index.tsx",
+    "matches": ["*.xy"],
+    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
   }
 ]
