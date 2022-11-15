@@ -73,7 +73,6 @@ export default function (props: FileBlockProps) {
     <g transform={`translate(${margin}, ${margin})
                    scale(${scaleFactor}, ${-scaleFactor})
                    translate(0, ${-maxY})`}>
-      <rect width={maxX - minX} height={maxY - minY} fill="#EEEEEE" />
       // for each point, draw a circle
       {points.map(p => fixedSizeDot(p, "blue"))}
 
