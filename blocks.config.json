@@ -16,5 +16,14 @@
     "entry": "blocks/sonify-block/index.tsx",
     "matches": ["*.xy"],
     "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
+  },
+  {
+    "type": "file",
+    "id": "euclidean-rhythm-block",
+    "title": "Euclidean Rhythm Block",
+    "description": "A block making a euclidean rhythm.",
+    "entry": "blocks/euclidean-rhythm-block/index.tsx",
+    "matches": ["*.xy"],
+    "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
   }
 ]
