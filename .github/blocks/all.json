@@ -1,5 +1,8 @@
 {
   "test01.xy": {
     "default": "kaeluka__blocks-test__svg-chart-block"
+  },
+  "test02.xy": {
+    "default": "kaeluka__blocks-test__euclidean-rhythm-block"
   }
 }
